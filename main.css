@@ -1,0 +1,32 @@
+.title {
+    color: blue;
+    font-size: 80px;
+    text-align: center;
+}
+
+body {
+    padding-top: 60px;
+  }
+
+:target:before {
+    content: "";
+    display: block;
+    height: 60px; /* fixed header height*/
+    margin: -60px 0 0; /* negative fixed header height */
+}
+
+.section-big {
+    min-height: 100vh;
+}
+
+#about {
+    background: hsl(201, 50%, 70%);
+}
+
+#portfolio {
+    background: hsl(20, 50%, 70%);
+}
+
+#contact {
+    background: hsl(90, 50%, 70%);
+}
