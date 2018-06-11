@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $("#year").text((new Date).getFullYear());
-});
+
 
 // Select all links with hashes
 $('a[href*="#"]')
@@ -38,5 +38,4 @@ $('a[href*="#"]')
       }
     }
   });
-
-  $('body').scrollspy({ target: '.menu-transition', offset:80 });
+});
