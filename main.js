@@ -1,5 +1,6 @@
 $(document).ready(function () {
     $("#year").text((new Date).getFullYear());
+    $('#btnClear').click(function(){clear();});
 
 
 // Select all links with hashes
@@ -39,3 +40,7 @@ $('a[href*="#"]')
     }
   });
 });
+
+function clear(){
+  document.getElementById("email-form").reset();
+}

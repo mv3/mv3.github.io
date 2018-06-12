@@ -52,12 +52,22 @@
             <h1>Portfolio</h1>
         </section>
         <section id="contact" class="section-big">
-            <h1>Contact</h1>            
-            <address>
-                <strong>Email:</strong> <a href="mailto:mattveit@mattveit.com">MattVeit@MattVeit.com</a><br />
-                <a href="https://github.com/mv3" target="_blank" class="fab fa-github-square fa-5x"></a>
-                <a href="https://www.linkedin.com/in/matt-veit/" target="_blank" class="fab fa-linkedin fa-5x"></a>
-            </address>
+            <h1>Contact</h1> 
+
+            <form id="email-form" method="POST" action="https://formspree.io/mattveit@mattveit.com">
+                <div class="form-group" id="mail-form">
+                    <input id="email" type="email" class="form-control" name="email" placeholder="Your email">                    
+                    <textarea id="message" name="message"  class="form-control" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn-outline-info">Send</button>
+                    <input id="btnClear" class="btn btn-outline-danger" type="button" value="Clear"/>
+                </div>
+            </form>
+              
+
+            <a href="mailto:mattveit@mattveit.com" class="fas fa-envelope-square fa-5x"></a>
+            <a href="https://github.com/mv3" target="_blank" class="fab fa-github-square fa-5x"></a>
+            <a href="https://www.linkedin.com/in/matt-veit/" target="_blank" class="fab fa-linkedin fa-5x"></a>
+
         </section>   
     </main>
     <footer>
