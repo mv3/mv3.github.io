@@ -1,3 +1,7 @@
+html {
+    font-family: 'Noto Sans', sans-serif;
+}
+
 .title {
     color: blue;
     font-size: 80px;
