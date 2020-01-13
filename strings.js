@@ -60,7 +60,7 @@ var aboutText = `
         <td></td>
     </tr>
     <tr>
-        <td>OTHER</td>
+        <td>SOFTWARE</td>
         <td>
             [SAP Crystal Reports, Oracle SQL Developer, MS Visual Studio, VS Code]
         </td>
