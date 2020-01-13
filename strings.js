@@ -10,7 +10,7 @@ var helpText = `
     </tr>
     <tr>
         <td>PROJECTS</td>
-        <td>Displays information recent projects.</td>
+        <td>Displays information about recent projects.</td>
     </tr>
     <tr>
         <td>CONTACT</td>
