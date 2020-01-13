@@ -88,7 +88,7 @@ var aboutText = `
         <td>
             <ul style="list-style-type:none;">
                 <li>
-                    Bachelor of Science, <i>summ cum laude</i>
+                    Bachelor of Science, <i>summa cum laude</i>
                 </li>
                 <li>
                     Major: Computer Information Systems
