@@ -10,6 +10,11 @@ var commands = {};
             return output;
       };
 
+      commands.PROJECTS = function() {
+        var output = projectsText;
+            return output;
+      };
+
       commands.CONTACT = function() {
         var output = contactText;
             return output;

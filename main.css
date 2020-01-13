@@ -9,4 +9,12 @@ body {
     margin:  0;
     
     box-sizing: border-box;        
-  }
+}
+
+a:link, a:visited {
+  color: white;
+}
+
+a:hover, a:active {
+  background-color: #0000ff;
+}

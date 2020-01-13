@@ -11,6 +11,11 @@ var helpText = `
         <td></td>
     </tr>
     <tr>
+        <td>PROJECTS</td>
+        <td>Displays information recent projects.</td>
+        <td></td>
+    </tr>
+    <tr>
         <td>CONTACT</td>
         <td>Displays contact information for MATT VEIT.</td>
         <td></td>
@@ -101,6 +106,43 @@ var aboutText = `
         <td></td>
     </tr>
 </table>
+`;
+
+var projectsText = `
+<br>
+<p>PROJECTS</p>
+<p>--------</p>
+    <table style="width:80%">
+    <tr>
+        <td>mattveit.com</td>
+        <td>
+            <p>Personal portfolio website.</p>
+            <p>[HTML, CSS, Javascript]</p>
+            <p>Source: <a href="https://github.com/mv3/mv3.github.io" target="_blank">github.com/mv3/mv3.github.io</a></p>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>OpenCare</td>
+        <td>
+            <p>Daycare management application.</p>
+            <p>[.NET Core, Razor Pages, EF Core, SQL Server]</p>
+            <p>Documentation: <a href="http://www.mattveit.com/OpenCareDocumentation/Index.html" target="_blank">mattveit.com/OpenCareDocumentation</a></p>
+            <p>Source: <a href="https://github.com/mv3/Opencare" target="_blank">github.com/mv3/Opencare</a></p>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>MyGoals</td>
+        <td>
+            <p>Goal Tracking application.</p>
+            <p>[.NET Core, MVC, EF Core, SQL Server]</p>
+            <p>Demo: <a href="http://mygoals.azurewebsites.net/" target="_blank">mygoals.azurewebsites.net</a></p>
+            <p>Source: <a href="https://github.com/mv3/MyGoals" target="_blank">github.com/mv3/MyGoals</a></p>
+        </td>
+        <td></td>
+    </tr>
+    </table>
 `;
 
 var contactText = `
