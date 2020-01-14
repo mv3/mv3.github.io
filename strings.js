@@ -50,12 +50,6 @@ var aboutText = `
         </td>
     </tr>
     <tr>
-        <td>DATABASES</td>
-        <td>
-            [Oracle, MS SQL Server, Microsoft Access, MySQL, MongoDB]
-        </td>
-    </tr>
-    <tr>
         <td>SOFTWARE</td>
         <td>
             [SAP Crystal Reports, Oracle SQL Developer, MS Visual Studio, VS Code]
